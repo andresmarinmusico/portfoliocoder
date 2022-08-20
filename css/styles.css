@@ -75,7 +75,7 @@ html{
   max-width: 1100px;
   height: 100vh;
   margin: auto;
-  color: #fff;
+  columns: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,32 +133,32 @@ html{
 #sobremi{
   background-color: rgba(222, 203, 203, 0.8);
   max-width: 1500px;
-  /*width: 100%;*/
   margin: auto;
   padding: 100px 15px;
   color: #111135;
   display: flex;
-    text-align: center;
-  }
+  text-align: center;
+}
 
 #sobremi .contenedor-foto{
-  /*max-width: 420px;*/
+  max-width: 400px;
   margin-right: 80px;
   }
 
 #sobremi .contenedor-foto img{
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #8a8a8a;
   background: linear-gradient(#7574745c, rgba(222, 99, 99, 0.8));
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  width: 100%;
-  padding: 20px 0;
   text-align: center;
-  border-radius: 30px;
-  background-color: #8a8a8a;
-  height: 75vh;
+  
 }
+height: 95vh;
 
 #sobremi .sobremi{
   margin: 0 40px;
